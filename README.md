@@ -3,10 +3,12 @@ tugas2-offlinefirst-kelompok_ateng created by GitHub Classroom
 
 #synceddb offline first
 
-  npm run prepublish
+    npm run prepublish
 
-  cd app
+    cd app
 
-  node server.js
+    node server.js
 
-  buka index.html melalui browser
+    buka index.html melalui browser
+
+official documentation and sources : github.com/paldepind/synceddb
