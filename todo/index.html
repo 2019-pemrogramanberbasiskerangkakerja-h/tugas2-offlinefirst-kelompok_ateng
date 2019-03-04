@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Chat</title>
+    <link href="common.css" rel="stylesheet">
+    <style>
+    #tasks .task-finished {
+      color: grey;
+    }
+    #tasks .task-finished span {
+      transform: translateX(1.5em);
+    }
+    #tasks li::before {
+      transition: .2s all ease;
+      content: '✓';
+      transform: scale(9);
+      margin: 0 -1.4em 0 .4em;
+      width: 1.1em;
+      opacity: 0;
+      position: relative;
+      z-index: 1;
+      color: green;
+      display: inline-block;
+    }
+    #tasks .task-finished::before {
+      opacity: 1;
+      transform: scale(1.8);
+    }
+    </style>
+    <script src='../client/dist/synceddb-global.js'></script>
+    <script src='client.js'></script>
+  </head>
+  <body>
+  	<div class="heading">
+  		<div class="type-title">
+  			<p>Jadwal.in</p>
+  		</div>
+  	</div>
+    <div class="wrapper">
+    	<div class="chasis">
+    		<button id="reset">Reset</button>
+      	<h2>Daftar Tugas</h2>
+      	<ul id="tasks" class="block-list">
+      	</ul>
+      	<h2>Tambah Tugas</h2>
+      	<form id="add-todo-form" class="add-form" action="">
+	        <button type="submit">Tambah</button>
+        	<span><input id="todo-description" /></span>
+      	</form>
+    		</div>
+    </div>
+  </body>
+</html>

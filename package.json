@@ -1,0 +1,25 @@
+{
+  "name": "synceddb_nodejs",
+  "version": "1.0.0",
+  "description": "tugas2 pbkk by team ateng",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2019-pemrogramanberbasiskerangkakerja-h/tugas2-offlinefirst-kelompok_ateng.git"
+  },
+  "keywords": [
+    "offline",
+    "first"
+  ],
+  "author": "ateng team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2019-pemrogramanberbasiskerangkakerja-h/tugas2-offlinefirst-kelompok_ateng/issues"
+  },
+  "homepage": "https://github.com/2019-pemrogramanberbasiskerangkakerja-h/tugas2-offlinefirst-kelompok_ateng#readme"
+}
