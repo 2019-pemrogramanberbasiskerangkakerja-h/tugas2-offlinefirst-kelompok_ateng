@@ -6,7 +6,8 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "cd backend;npm i;npm run test; cd ../client; npm i;npm run test;cd ../persistence/memory; npm i;../../app;npm i"
   },
   "repository": {
     "type": "git",

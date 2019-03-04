@@ -9,12 +9,13 @@
   },
   "keywords": [
     "synceddb",
-    "todo",
-    "example"
+    "todo"
   ],
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "blacklist" : "latest",
+    "ws" : "latest",
     "synceddb-client": "latest",
     "synceddb-persistence-memory": "latest",
     "synceddb-server": "latest"

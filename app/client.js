@@ -8,7 +8,7 @@
     name: 'todoApp',
     version: 1,
     stores: stores,
-    remote: '10.151.36.109:8080',
+    remote: 'localhost:8080',
   });
 
   const tasks = [];
