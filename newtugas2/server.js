@@ -15,9 +15,9 @@ const Server = require('synceddb-server');
 const mysqlPersistence = require('synceddb-persistence-mysql');
 //const mysqlPersistence = require('../../persistence/mysql');
 const mysqlOpts = {
-  host: '159.65.9.98',
-  user: 'ruangujian',
-  password: 'jalapeno123!',
+  host: 'localhost',
+  user: 'root',
+  password: '',
   database: 'nodelogin',
 };
 
