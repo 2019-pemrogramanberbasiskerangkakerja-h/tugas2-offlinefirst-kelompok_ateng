@@ -1,0 +1,24 @@
+{
+  "name": "pbkk2",
+  "version": "1.0.0",
+  "description": "tugas 2 pbkk offline first",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-generator": "^4.16.0",
+    "express-session": "^1.15.6",
+    "mongodb": "^3.1.13",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0",
+    "synceddb-persistence-memory": "0.0.3",
+    "synceddb-persistence-mysql": "0.0.3",
+    "synceddb-server": "0.0.5",
+    "tortoisedb": "^1.0.8",
+    "turtledb": "^1.0.2"
+  }
+}
